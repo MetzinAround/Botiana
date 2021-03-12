@@ -1,0 +1,17 @@
+{
+  "name": "botiana",
+  "version": "1.0.0",
+  "description": "Teaching patience one line at a time",
+  "main": "botiana.js",
+  "scripts": {
+    "test": "botiana.js",
+    "start": "node ./botiana.js",
+    "develop": "NODE_ENV=develop node botiana.js"
+  },
+  "author": "Pj Metz",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "twit": "^2.2.11"
+  }
+}
